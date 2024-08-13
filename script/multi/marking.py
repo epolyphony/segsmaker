@@ -90,4 +90,5 @@ if marked.exists():
     forge_svd = tmp / 'svd' if ui == 'Forge' else None
     tmp_ckpt = tmp / 'ckpt'
     tmp_lora = tmp / 'lora'
+    tmp_unet = tmp / 'unet'
     tempe()
