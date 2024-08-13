@@ -19,7 +19,7 @@ def purge():
         'ckpt',
         'lora',
         'tmp_ckpt',
-        'tmp_lora',
+        'tmp_lora','tmp_unet'
         'forge_svd',
         'controlnet_models'
     ]
