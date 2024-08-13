@@ -66,11 +66,13 @@ def req_list():
     return [
         f"rm -rf {home}/tmp {home}/.cache/*",
         f"rm -rf {sd}/models/checkpoints/tmp_ckpt",
+        f"rm -rf {sd}/models/unet/tmp_unet",
         f"rm -rf {sd}/models/loras/tmp_lora {sd}/models/controlnet",
         f"ln -vs /tmp {home}/tmp",
         f"ln -vs /tmp/ckpt {sd}/models/checkpoints/tmp_ckpt",
         f"ln -vs /tmp/lora {sd}/models/loras/tmp_lora",
         f"ln -vs /tmp/controlnet {sd}/models/controlnet",
+        f"ln -vs /tmp/unet {sd}/models/unet/tmp_unet",
         f"ln -vs {sd}/models/checkpoints {sd}/models/checkpoints_symlink"]
 
 def clone_comfyui():

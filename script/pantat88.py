@@ -432,6 +432,7 @@ def tempe(line):
         "/tmp/ckpt",
         "/tmp/lora",
         "/tmp/controlnet",
+        "/tmp/unet",
         "/tmp/svd",
         "/tmp/z123"
     ]
