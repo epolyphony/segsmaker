@@ -351,8 +351,8 @@ def change_key(line):
 
     def key_inject(api_key):
         x = [
-            f"curl -sLo {pantat} https://github.com/gutris1/segsmaker/raw/main/script/pantat88.py",
-            f"curl -sLo {nenen} https://github.com/gutris1/segsmaker/raw/main/script/nenen88.py"
+            f"curl -sLo {pantat} https://github.com/epolyphony/segsmaker/raw/add-unet/script/pantat88.py",
+            f"curl -sLo {nenen} https://github.com/epolyphony/segsmaker/raw/add-unet/script/nenen88.py"
         ]
 
         for y in x:

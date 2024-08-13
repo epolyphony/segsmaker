@@ -53,12 +53,12 @@ def multi_widgets():
         src.mkdir(parents=True, exist_ok=True)
 
     x = [
-        f"curl -sLo {css_setup} https://github.com/gutris1/segsmaker/raw/main/script/multi/setup.css",
-        f"curl -sLo {img} https://github.com/gutris1/segsmaker/raw/main/script/loading.png",
-        f"curl -sLo {mark} https://github.com/gutris1/segsmaker/raw/main/script/multi/marking.py",
-        f"curl -sLo {A1111} https://github.com/gutris1/segsmaker/raw/main/script/multi/A1111.py",
-        f"curl -sLo {Forge} https://github.com/gutris1/segsmaker/raw/main/script/multi/Forge.py",
-        f"curl -sLo {ComfyUI} https://github.com/gutris1/segsmaker/raw/main/script/multi/ComfyUI.py"]
+        f"curl -sLo {css_setup} https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/setup.css",
+        f"curl -sLo {img} https://github.com/epolyphony/segsmaker/raw/add-unet/script/loading.png",
+        f"curl -sLo {mark} https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/marking.py",
+        f"curl -sLo {A1111} https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/A1111.py",
+        f"curl -sLo {Forge} https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/Forge.py",
+        f"curl -sLo {ComfyUI} https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/ComfyUI.py"]
 
     for y in x:
         get_ipython().system(y)

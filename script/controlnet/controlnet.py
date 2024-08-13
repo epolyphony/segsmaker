@@ -44,9 +44,9 @@ cn_panel.add_class('cn-panel')
 
 def controlnet_widgets():
     x = [
-        f"curl -sLo {cn15} https://github.com/gutris1/segsmaker/raw/main/script/controlnet/cn-15.py",
-        f"curl -sLo {cnxl} https://github.com/gutris1/segsmaker/raw/main/script/controlnet/cn-xl.py",
-        f"curl -sLo {css_cn} https://github.com/gutris1/segsmaker/raw/main/script/controlnet/cn.css"]
+        f"curl -sLo {cn15} https://github.com/epolyphony/segsmaker/raw/add-unet/script/controlnet/cn-15.py",
+        f"curl -sLo {cnxl} https://github.com/epolyphony/segsmaker/raw/add-unet/script/controlnet/cn-xl.py",
+        f"curl -sLo {css_cn} https://github.com/epolyphony/segsmaker/raw/add-unet/script/controlnet/cn.css"]
     for y in x:
         get_ipython().system(y)
 

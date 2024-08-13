@@ -25,13 +25,13 @@ GREEN = f"\033[38;5;35m{T}"
 Path(src).mkdir(parents=True, exist_ok=True)
 
 scripts = [
-    f"curl -sLo {pantat} https://github.com/gutris1/segsmaker/raw/main/script/pantat88.py",
-    f"curl -sLo {css} https://github.com/gutris1/segsmaker/raw/main/script/pantat88.css",
-    f"curl -sLo {nenen} https://github.com/gutris1/segsmaker/raw/main/script/nenen88.py",
-    f"curl -sLo {startup}/00-startup.py https://github.com/gutris1/segsmaker/raw/main/script/00-startup.py",
-    f"curl -sLo {startup}/util.py https://github.com/gutris1/segsmaker/raw/main/script/util.py",
-    f"curl -sLo {img} https://github.com/gutris1/segsmaker/raw/main/script/loading.png",
-    f"curl -sLo {startup}/cupang.py https://github.com/gutris1/segsmaker/raw/main/script/cupang.py"
+    f"curl -sLo {pantat} https://github.com/epolyphony/segsmaker/raw/add-unet/script/pantat88.py",
+    f"curl -sLo {css} https://github.com/epolyphony/segsmaker/raw/add-unet/script/pantat88.css",
+    f"curl -sLo {nenen} https://github.com/epolyphony/segsmaker/raw/add-unet/script/nenen88.py",
+    f"curl -sLo {startup}/00-startup.py https://github.com/epolyphony/segsmaker/raw/add-unet/script/00-startup.py",
+    f"curl -sLo {startup}/util.py https://github.com/epolyphony/segsmaker/raw/add-unet/script/util.py",
+    f"curl -sLo {img} https://github.com/epolyphony/segsmaker/raw/add-unet/script/loading.png",
+    f"curl -sLo {startup}/cupang.py https://github.com/epolyphony/segsmaker/raw/add-unet/script/cupang.py"
 ]
 
 for items in scripts:

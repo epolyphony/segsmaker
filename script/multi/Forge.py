@@ -89,12 +89,12 @@ def sd_clone():
         subprocess.run(shlex.split(lines), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     scripts = [
-        f"https://github.com/gutris1/segsmaker/raw/main/script/controlnet/controlnet.py {sd}/asd",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/zrok.py {sd}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/pinggy.py {sd}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/ngrokk.py {sd}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {sd}",
-        f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {sd}"]
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/controlnet/controlnet.py {sd}/asd",
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/zrok.py {sd}",
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/pinggy.py {sd}",
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/ngrokk.py {sd}",
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/venv.py {sd}",
+        f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/segsmaker.py {sd}"]
 
     upscalers = [
         f"https://huggingface.co/pantat88/ui/resolve/main/4x-UltraSharp.pth {sd}/models/ESRGAN",
@@ -238,12 +238,12 @@ def webui_widgets():
             get_ipython().system("git fetch --tags")
 
         x = [
-            f"https://github.com/gutris1/segsmaker/raw/main/script/controlnet/controlnet.py {sd}/asd",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/zrok.py {sd}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/pinggy.py {sd}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/ngrokk.py {sd}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/venv.py {sd}",
-            f"https://github.com/gutris1/segsmaker/raw/main/script/multi/segsmaker.py {sd}"
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/controlnet/controlnet.py {sd}/asd",
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/zrok.py {sd}",
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/pinggy.py {sd}",
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/ngrokk.py {sd}",
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/venv.py {sd}",
+            f"https://github.com/epolyphony/segsmaker/raw/add-unet/script/multi/segsmaker.py {sd}"
         ]
 
         for y in x:
