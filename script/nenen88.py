@@ -387,7 +387,7 @@ def tempe():
         "/tmp/ckpt",
         "/tmp/lora",
         "/tmp/controlnet",
-        "/tmp/unet",
+        "/tmp/unet","/tmp/clip",
         "/tmp/svd",
         "/tmp/z123"
     ]

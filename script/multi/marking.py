@@ -19,7 +19,7 @@ def purge():
         'ckpt',
         'lora',
         'tmp_ckpt',
-        'tmp_lora','tmp_unet'
+        'tmp_lora','tmp_unet','tmp_clip',
         'forge_svd',
         'controlnet_models'
     ]
@@ -91,4 +91,5 @@ if marked.exists():
     tmp_ckpt = tmp / 'ckpt'
     tmp_lora = tmp / 'lora'
     tmp_unet = tmp / 'unet'
+    tmp_clip = tmp / 'clip'
     tempe()
